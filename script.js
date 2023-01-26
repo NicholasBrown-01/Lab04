@@ -34,10 +34,17 @@ function ageCheck() {
     function popupPicture() {
         let number = prompt("Pick a number between 1 and 3");
 
-        if (number == 1 || number == 2 || number == 3) {
+        if (number == 1) {
+            document.write("<img src='./streetbike.jpg' width = '500px'></img>");
 
-            document.write("<img src='./streetbike.jpg' width = '350px'></img>");
-            document.write("<img src='./streetbike.jpg' width = '350px'></img>");
+        } else if (number == 2) {
+            document.write("<img src='./streetbike.jpg' width = '500px'></img>");
+            document.write("<img src='./streetbike.jpg' width = '500px'></img>");
+
+        } else if (number == 3) {
+            document.write("<img src='./streetbike.jpg' width = '500px'></img>");
+            document.write("<img src='./streetbike.jpg' width = '500px'></img>");
+            document.write("<img src='./streetbike.jpg' width = '500px'></img>");
 
         } else { 
             popupPicture();
