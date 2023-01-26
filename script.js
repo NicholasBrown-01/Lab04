@@ -1,15 +1,31 @@
 
 
-alert("You must be over 14 to purchase or ride a motorcycle");
+alert("You must be over the age of 14 to purchase or operate a motorcycle");
 
-let userName = prompt("Welcome to Top Performance Motors! What is your name?");
+function ageCheck(){
+   let age = prompt("Are you over the age of 14? Yes or No"); 
 
-if (confirm("Are you a beginning or new rider?")) {
-    document.write ("Welcome to a great hobby! "+ userName);
-    
-} else {
-    document.write("Glad you are continuing your adventure with us " + userName)
+  if (age.toLowerCase() == "yes") {
+
+  } else { 
+    ageCheck();
+   console.log(age);
+   return age;
+  }
 }
+
+ageCheck();
+
+
+
+function userGreeting(){
+    userName = prompt("Welcome to Top Performance Motors! What is your name?");
+    console.log(userName);
+    document.write("Thank you for shopping with us today " + userName);
+    return userName;
+}
+
+userGreeting();
 
 
 
