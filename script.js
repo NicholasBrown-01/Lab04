@@ -36,15 +36,18 @@ function ageCheck() {
 
         if (number == 1) {
             document.write("<img src='./streetbike.jpg' width = '350px'></img>");
+            console.log(number);
 
         } else if (number == 2) {
             document.write("<img src='./streetbike.jpg' width = '350px'></img>");
             document.write("<img src='./streetbike.jpg' width = '350px'></img>");
+            console.log(number);
 
         } else if (number == 3) {
             document.write("<img src='./streetbike.jpg' width = '350px'></img>");
             document.write("<img src='./streetbike.jpg' width = '350px'></img>");
             document.write("<img src='./streetbike.jpg' width = '350px'></img>");
+            console.log(number);
 
         } else { 
             popupPicture();
@@ -52,6 +55,7 @@ function ageCheck() {
         }
         
     }
+
 
     popupPicture();
 
