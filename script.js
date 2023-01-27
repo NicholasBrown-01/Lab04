@@ -3,6 +3,9 @@
 
 alert("You must be over the age of 14 to purchase or operate a motorcycle");
 
+
+// THIS IS MY FUNCTION PROMPT
+
 function ageCheck() {
     let age = prompt("Are you over the age of 14? Yes or No");
 
