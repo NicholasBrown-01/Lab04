@@ -43,13 +43,14 @@ function popupPicture() {
         popupPicture();
     }
 
-
     for (let i = 0; i < number; i++) {
         document.write("<img src='./streetbike.jpg' width = '350px'></img>");
         console.log(number);
         console.log(i);
     }
 }
+
+popupPicture();
 
     //     if (number == 1) {
     //         document.write("<img src='./streetbike.jpg' width = '350px'></img>");
@@ -72,5 +73,3 @@ function popupPicture() {
     //     }
         
     // }
-
-popupPicture();
